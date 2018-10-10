@@ -1,0 +1,120 @@
+
+* {
+    color:  whitesmoke;
+}
+a>img{
+    background: white;
+}
+a:hover{
+    color: black;
+    background: aliceblue;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0.7em;
+    transition: all 0.3s linear;
+}
+body {
+    background-image: url("../imagens/chalkboard.jpg");
+    background-attachment: fixed;
+    padding: 1rem;
+    font-family: 'Incosolata', monospace;
+}
+
+p{
+    text-align: justify;
+    line-height: 1.1em;
+    font-size: 1.1em;
+    margin: 0.3em 0 0.3em 0;
+}
+
+h2, h3 {
+    color:  #c1c1c1;
+}
+
+h1{
+    color: rgba(255, 255, 255, 0.78);
+    text-align: center;
+    font-weight: bold;
+}
+
+h2, h3 {
+    font-weight: normal;
+}
+
+li > h3{
+    color: purple;
+}
+
+li{
+    list-style: none;
+    margin: 0 0 0.7em 0;
+}
+
+li img:hover{
+    border:1px color transparent;
+    border-radius: 20px;
+}
+small{
+    font-size: 1em;
+}
+
+footer{
+    margin: 1em 0;
+}
+
+.social a > img {
+
+    width: 32px;
+    height: 32px;
+
+}
+
+.passatempo img{
+    width: 360px;
+    max-width: 360px;
+    max-height: 255px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    object-fit: contain;
+}
+
+.destaque{
+    background: #b1b1b1;
+    color: #0f0f0f;
+    font-size: 1.4em;
+    line-height: 0.7em; 
+    padding: 2em;
+}
+
+
+strong{
+    color: black;
+    background-color: white;
+}
+
+mark{
+    color: white;
+    background-color: #373737
+}
+
+textarea{
+    background-color: rgba(70, 70, 70, 0.3);
+    width: 100%;
+    resize: none;
+    font-size: 1.2em;
+    line-height: 1.1em;
+}
+input{
+    color: #0f0f0f;
+    padding: 0.7em;
+}
+button{
+    color: #0f0f0f;     
+}
+
+
+input:focus{
+    background-color: rgba(70, 70, 70, 0.3);
+    color: whitesmoke;
+    transition: all 0.3s linear;
+}

@@ -1,0 +1,42 @@
+
+* {
+    color:  whitesmoke;
+}
+
+body {
+    background:#9e9e9e;
+    padding: 1rem;
+    font-family: 'Incosolata', monospace;
+}
+
+p{
+    text-align: justify;
+    line-height: 1.1em;
+    font-size: 1.1em;
+    margin: 0.3em 0 0.3em 0;
+}
+
+h2, h3 {
+    color:  #e53935;
+}
+
+h1{
+    color: #311b92;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2, h3 {
+    font-weight: normal;
+}
+
+li > h3{
+    color: purple;
+}
+
+li{
+    list-style: none;
+}
+small{
+    font-size: 1em;
+}

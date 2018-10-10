@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Exercícios - Aula 03 - HTML + CSS</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <style>
+    body { padding-bottom: 50px; font-size: 16px;}
+    .main-li { margin-bottom: 20px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="text-center">
+      <img src="images/logo-dh.png" alt="Digital House" width="250">
+    </div>
+    <div class="page-header">
+      <h1>
+        Exercícios
+        <small>
+          HTML + CSS | Aula 03
+        </small>
+      </h1>
+    </div>
+
+    <section id="ex-1">
+      <div class="page-header">
+        <h2>
+          Utilizando o mesmo arquivo (<em>index.html</em>) dos exercícios anteriores:<br>
+        </h2>
+      </div>
+      <ol>
+        <li class="main-li">
+          Insira várias tags <strong>&lt;strong&gt;</strong> dentro dos textos mais importantes do CV.
+        </li>
+        <li class="main-li">
+          Insira várias tags <strong>&lt;em&gt;</strong> dentro dos textos que queremos destacar no CV.
+        </li>
+        <li class="main-li">
+          Insira pelo menos duas tags <strong>&lt;mark&gt;</strong> no CV.
+        </li>
+        <li class="main-li">
+          Inserir uma abreviatura <strong>&lt;abbr&gt;</strong> em alguma parte do CV.<br>
+          <small><strong>Lembrete:</strong> Relembrar o uso do atributo title.</small>
+        </li>
+        <li class="main-li">
+          Usando CSS, mudar como quiser a aparência dos <strong>&lt;strong&gt;</strong>, <strong>&lt;em&gt;</strong> e <strong>&lt;mark&gt;</strong> para que eles fiquem diferentes.
+        </li>
+      </ol>
+    </section>
+
+    <section id="ex-2">
+      <div class="page-header">
+        <h2>
+          Agora, vamos trabalhar com formulários. Para isso:<br>
+          <small>Comece criando um arquivo <em>contato.html</em></small>
+        </h2>
+      </div>
+      <ol>
+        <li class="main-li">Dentro dele, insira um título principal que diga: "Formulário de Contato" o arquivo deve conter links que levem ao arquivo <em>index.html</em> e ao <em>hobbies.html</em>.</li>
+        <li class="mai-li">Inserir um formulário que contenha os seguintes campos (inputs), com as respectivas labels:<br>
+          <ul>
+            <li>Nome e sobrenome</li>
+            <li>E-mail</li>
+            <li>Assunto da mensagem (combobox suspenso com opções à sua escolha)</li>
+            <li>Gênero (radio button para as opções "feminino", "masculino" e "outros")</li>
+            <li>Passatempos (no mínimo 3 checkboxes, à sua escolha)</li>
+            <li>Comentários (textarea)</li>
+            <li>Botões de enviar e excluir</li>
+          </ul>
+          <small><strong>Lembrete:</strong> Os campos nome e sobrenome, e-mail e comentários deverão ser obrigatórios.</small>
+        </li>
+      </ol>
+    </section>
+
+    <section id="ex-3">
+      <div class="page-header">
+        <h2>
+          Vamos para o CSS<br>
+          <small>Utilizando o arquivo <em>estilo.css</em> criado nas aulas anteriores:</small>
+        </h2>
+      </div>
+      <ol>
+        <li class="main-li">
+          Criar uma regra que permita mudar o visual (pode ser o fundo) de todos os campos do formulário apenas quando eles estiverem em foco <strong>("focus")</strong>.
+        </li>
+        <li class="main-li">
+          Criar uma regra que permita redimensionar o campo comentários somente na vertical.
+        </li>
+        <li class="main-li">
+          Criar uma regra que permita alterar a cor, espessura da fonte e decoração dos links apenas quando o usuário passar o mouse sobre eles <strong>("hover")</strong>.
+        </li>
+        <li class="main-li">
+          Criar uma regra que permita alterar o visual das imagens do arquivo <em>hobbies.html</em> apenas quando o usuário passar o mouse sobre elas.<br>
+          <small> <strong>Dica:</strong> Você pode usar esta declaração para testar: border-radius: 20px.</small>
+        </li>
+      </ol>
+    </section>
+  </div>
+
+  <!-- Modal do exemplo de HTML -->
+  <div class="modal fade bs-example-modal-lg" id="exemploHTML" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Exemplo</h4>
+        </div>
+        <div class="modal-body">
+          <img src="images/exemplo-exercicio-2.png" alt="Exemplo" width="100%">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal do exemplo de CSS -->
+  <div class="modal fade bs-example-modal-lg" id="exemploCSS" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Exemplo</h4>
+        </div>
+        <div class="modal-body">
+          <img src="images/exemplo-exercicio.png" alt="Exemplo" width="100%">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
