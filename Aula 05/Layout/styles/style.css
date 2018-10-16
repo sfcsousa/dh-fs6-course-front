@@ -99,22 +99,33 @@ main p{
     padding: 1em;
     border: 1px solid rgb(150, 223, 42);
     border-radius: 1.7em;
+    display: inline-block;
 }
 
 .btn-a:hover{
     background: chartreuse;
+    color: rgba(230, 230, 230, 1);
     text-shadow: beige;
     box-shadow: azure;
 }
 
 section .container{
-    padding-top: 6%;
-    padding-bottom: 7%;
+    padding: 0 20%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
     text-align: center;
 }
-section h1{
+.img-logo{
+    width: 50px;
+    margin: 0 auto;
+    margin-top: 7%;
+    
+}
+section h2{
     margin: 1em;
 }
 section p{
     margin: 1em;
+    margin-bottom: 7%;
 }
