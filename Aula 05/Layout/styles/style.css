@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    font-style: normal;
+    text-decoration: none;
+    font-size: 1em;
+    color: inherit;
+}
+
+li{
+    list-style: none;
+    margin-left: 15px;
+}
+
+body{
+    width: 100vw;
+    font-family: 'Open Sans', sans-serif; 
+    color: whitesmoke;
+    overflow-x: hidden; 
+}
+
+.container{
+    padding: 0 10%;
+}
+
+header{
+    color: white;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 1em;
+
+}
+header .container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+header span{
+    position: relative;
+    left:15px;
+    top: -6px;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+header nav ul {
+    display: flex;
+    padding: 0 10px;
+}
+
+nav a:hover {
+    text-shadow: whitesmoke;
+    font-weight: bold;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background: url("../images/bg-home.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden; 
+}
+main .container{
+    text-align: center;
+    padding-top: 20%;
+}
+main a {
+    text-transform: uppercase;
+    color:whitesmoke;
+    font-size: 1em;
+}
+main h1{
+    font-size: 6em;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+main p{
+    margin: 1em;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.6);
+}
+.btn-div{
+    margin: 0.7em;
+    display: block;
+}
+.bg-verde{
+    background-color: rgb(130, 196, 31);
+}
+.btn-a{
+    height: 100%;
+    padding: 1em;
+    border: 1px solid rgb(150, 223, 42);
+    border-radius: 1.7em;
+}
+
+.btn-a:hover{
+    background: chartreuse;
+    text-shadow: beige;
+    box-shadow: azure;
+}
+
+section .container{
+    padding-top: 6%;
+    padding-bottom: 7%;
+    text-align: center;
+}
+section h1{
+    margin: 1em;
+}
+section p{
+    margin: 1em;
+}
